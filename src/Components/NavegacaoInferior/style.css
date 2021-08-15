@@ -1,0 +1,12 @@
+.containerBottomMenu {
+  display: none;
+  background-color: aqua;
+}
+
+@media (max-width: 540px) {
+  .containerBottomMenu {
+    display: flex;
+    /* position: "fixed"; */
+    /* bottom: 0; */
+  }
+}

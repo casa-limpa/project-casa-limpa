@@ -1,0 +1,37 @@
+.containerListUser {
+  display: grid;
+  /* background-color: rgb(220, 245, 221); */
+  justify-content: center;
+  grid-template-columns: 350px 350px;
+  grid-gap: 10px;
+}
+
+.FiltroClass {
+  /* position: fixed; */
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 100%;
+  /* height: 80%; */
+  /* bottom: 40px; */
+  /* right: 20px; */
+}
+.FiltroClass .FiltroClassContainerList {
+  margin: 0;
+  padding: 0;
+}
+.FiltroClass .FiltroClassContainerList li {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+@media (max-width: 740px) {
+  .containerListUser {
+    grid-template-columns: 350px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,15 @@
+.FooterContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 540px) {
+  .FooterContainer {
+    display: none;
+  }
+}
